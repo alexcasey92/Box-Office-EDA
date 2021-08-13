@@ -1,71 +1,86 @@
-# Phase 1 Project Template - Minimum Viable Product (MVP)
+![movie_banner](./images/Movie_banner.jpg)
 
-![blueprint](images/blueprint.png)
 
-This repository is like a blueprint, providing structure for your first End of Phase Project. We suggest you base your Phase 1 project off of this repository so you can focus less on formatting and organization, and more on the _analysis and communication skills_ that will support your progress through the course. This template is designed to make your project portfolio-ready in order to impress the future employers who will review it. 
+# Box Office Winners: An In-Depth Analysis of What It Takes to Make A Successful Movie
 
-## Repository Contents
+**Prepared for**: Microsoft<br />
+**Authors**: [Alex Casey](mailto:alexcasey92@gmail.com)
 
-Below is a list of the contents of this repository - instructions for using them are in the next section.
+## Overview
 
-- `README.md`: The README for this repo branch explaining it's contents - you're reading it now
-- `TEMPLATE_README.md`: An example of a project README that provides a brief overview of your whole project
-- `dsc-phase1-project-template.ipynb`: A starter Jupyter Notebook with headings, code examples and guiding questions
-- `DS_Project_Presentation_Template.pdf`: A starter slide deck presenting your project - here is an [editable version](https://docs.google.com/presentation/d/1PaiH1bleXnhiPjTPsAXQSiAK0nkaRlseQIr_Yb-0mz0/copy)
-- `data` folder: A folder for the data you reference with your code
-- `images` folder: A folder for the images you reference in your files 
-- `.gitignore`: A hidden file that tells git to not track certain files and folders
+The motion picture industry is a multi-billion dollar business with movie success being largely uncertain, with “hits” and “flops” released almost every year. Analytics about the box-office performance of movies can give useful information to Microsoft so that they can make the most strategic decisions regarding production and financing. The analysis led to three key findings and recommendations for Microsoft:
 
-## Instructions For Using This Repository
+1. Animated films still offer the largest risk/reward equation in the movie business
+2. Acquiring or partnering with a studio could be a viable strategy for Microsoft as the industry continues to consolidate
+3. When box office profits and generating the quickest return on investment are important, then the months of summer are the ideal time of the year for Microsoft to release a film
 
-### Fork This Repository
 
-**For a group project**, have only one team member do these steps:
+## Business Problem
 
-1. Fork this repository to your personal account
-   - In GitHub, go to this repository and click the "Fork" button in the upper right
-   
-2. Change the name of your fork of this repo to a _descriptive_ name of your choosing
-   - In GitHub, go to your fork of this repo -> "Settings" -> "Options" -> "Repository Name" -> "Rename"
-   - Make the name descriptive, since potential employers will read it. Ex: "Microsoft-Movie-Analysis" is better than "Project-1"
+Microsoft (the "Client") is interested in launching a new movie studio, but they don’t know anything about creating movies. In this report, we will explore what types of films are currently successful at the box office.
 
-3. Use `git clone` to clone your fork of this repo to your local computer
+It's important to note upfront that while there's a lot of money to be made in the film industry, the economics of movie-making are far from simple. There's no sure path for a film to turn a profit since factors like brand awareness, P&A budgets, and the desires of a fickle public come into play. Theater attendance in the U.S. has been challenging over recent years, making it even more important to earn money in foreign theaters. Ever since Star Wars, merchandising has played a major role in revenue for films that appeal to children. Television rights, video-on-demand, and streaming services are increasingly important sources of income for movie studios.<sup>1</sup>
 
-4. **For a group project**, add team members as collaborators to your fork of this repo
-   - In GitHub, go to your fork of this repo -> "Settings" -> "Manage Access" -> "Invite Teams or People"
-   - Add your project team members as collaborators & send them the repo GitHub URL
+In this analysis, I will attempt to resolve three key questions for the Client in an effort to make a transition into movie-making successful:
 
-### Work In Your Fork Of This Repository
-
-- Work in the repo clone that you created on your local machine
-- Start writing and coding in the Jupyter Notebook `dsc-phase1-project-template.ipynb`
-- Fill in the README template in `TEMPLATE_README.md`
-- Use `git add`, `git commit`, and `git push` often to update your repo in GitHub
-   - For a refresher on how to do this and why it's important, review Topic 2: Bash and Git
-
-### Use The Slide Template
-
-1. Go to [this link](https://docs.google.com/presentation/d/1PaiH1bleXnhiPjTPsAXQSiAK0nkaRlseQIr_Yb-0mz0/copy) to make an editable copy of the slide deck in your own Google Drive account
-2. Go to "Slide," select "Change Theme," and pick a theme you like so your presentation doesn't look like everyone else's
-3. **For a group project**, click the "Share" button and add your teammates as editors
-
-### Tidy Up Your Project
-
-- Change the file name of the Jupyter Notebook (`dsc-phase1-project-template.ipynb`) to something more descriptive
-- Save an appropriately-named PDF version of your slide deck to the repository
-- Rename the template readme you've been working in by running `git mv TEMPLATE_README.md README.md`
-- Delete unnecessary files from the repo using `git rm`
-   - The presentation PDF: `DS_Project_Presentation_Template.pdf`
-   - This README file: `README.md`
-   - Any unused data files in the `data` folder
-   - Any unused images in the `images` folder
-
-### Submit Your Project
-
-To submit your project, please follow the instructions in the "Project Submission & Review" page in the Milestones course.
+* What types of movies have been produced the most in the past 20 years and what genres have been most successful?
+* Which studios have been the most successful and do any warrant a potential partnership?
+* Is release date a determinant of box-office success?
 
 ***
-### Notes
 
-- The visualizations in the notebook use best practices for visualization that you should try to emulate. For example, they have clear axes, descriptive titles, and appropriate number formatting
-- The `dsc-phase1-project-template.ipynb` is intended to be the _final version_ of your project. The first notebook you create will not look like this. You are encouraged to start with a very disorderly notebook and clean it as you go
+## Data
+
+The data for this project comes from several large movie datasets including, Box Office Mojo (BOM), the Internet Movie Database (IMDB), Rotten Tomatoes, The MovieDB, and The Numbers. After investigating all sources, I settled on using datasets from BOM, IMDB, and The Numbers to form my hypotheses and develop three key recommendations. The data includes many different types of information about each movie, such as genre, domestic (USA) and foreign box office earnings, studio, and production budget. Furthermore, I define success in financial terms by using both worldwide gross sales and total profit, depending on the key question being answered. This analysis only covered data about the movies themselves.
+
+***
+
+## Methods
+
+This project uses descriptive analysis. 
+
+***
+
+## Results
+
+Present your key results. For Phase 1, this will be findings from your descriptive analysis.
+
+***
+Questions to consider:
+* How do you interpret the results?
+* How confident are you that your results would generalize beyond the data you have?
+***
+
+Here is an example of how to embed images from your sub-folder:
+
+### Visual 1
+![graph1](./images/viz1.png)
+
+## Conclusions
+
+Provide your conclusions about the work you've done, including any limitations or next steps.
+
+***
+Questions to consider:
+* What would you recommend the business do as a result of this work?
+* What are some reasons why your analysis might not fully solve the business problem?
+* What else could you do in the future to improve this project?
+***
+<sup>1</sup>https://www.investopedia.com/articles/investing/093015/how-exactly-do-movies-make-money.asp
+## For More Information
+
+Please review our full analysis in [our Jupyter Notebook](./dsc-phase1-project-template.ipynb) or our [presentation](./DS_Project_Presentation.pdf).
+
+For any additional questions, please contact **Alex Casey & alexcasey92@gmail.com**
+
+## Repository Structure
+
+Describe the structure of your repository and its contents, for example:
+
+```
+├── README.md                           <- The top-level README for reviewers of this project
+├── dsc-phase1-project-template.ipynb   <- Narrative documentation of analysis in Jupyter notebook
+├── DS_Project_Presentation.pdf         <- PDF version of project presentation
+├── data                                <- Both sourced externally and generated from code
+└── images                              <- Both sourced externally and generated from code
+```
