@@ -4,10 +4,11 @@
 
 ## Overview
 
-The motion picture industry is a multi-billion dollar business with movie success being largely uncertain, with “hits” and “flops” released almost every year. Analytics about the box-office performance of movies can give useful information to Microsoft so that they can make the most strategic decisions regarding production and financing. The analysis led to three key recommedations for Micosroft:
+The motion picture industry is a multi-billion dollar business with movie success being largely uncertain, with “hits” and “flops” released almost every year. Analytics about the box-office performance of movies can give useful information to Microsoft so that they can make the most strategic decisions regarding production and financing. The analysis led to three key findings and recommendations for Microsoft:
+
 ** 1. Animated films still offer the largest risk/reward equation in the movie business
-** 2. Acquiring or partnering with a studio could be a viable strategy
-** 3. When box office profits and generating the quickest return on investment are important, then the months of summer are the ideal time of the year to release a film
+** 2. Acquiring or partnering with a studio could be a viable strategy for Microsoft as the industry continues to consolidate
+** 3. When box office profits and generating the quickest return on investment are important, then the months of summer are the ideal time of the year for Microsoft to release a film
 
 
 ## Business Problem
@@ -26,7 +27,7 @@ In this analysis, I will attempt to resolve three key questions for the Client i
 
 ## Data
 
-This project evaluates several large data sets from the Internet Movie Database (IMDB), The Numbers, and Box Office Mogo (BOM). The analysis is based on 5,000 movies. The data includes many different types of information about each movie, such as genre, domestic (USA) and foreign box office earnings, studio, and production budget. Furthermore, I define success in financial terms by using both worldwide gross sales and total profit, depending on the key question being answered. This analysis only covered data about the movies themselves.
+The data for this project comes from several large movie datasets including, Box Office Mojo (BOM), the Internet Movie Database (IMDB), Rotten Tomatoes, The MovieDB, and The Numbers. After investigating all sources, I settled on using datasets from BOM, IMDB, and The Numbers to form my hypotheses and develop three key recommendations. The data includes many different types of information about each movie, such as genre, domestic (USA) and foreign box office earnings, studio, and production budget. Furthermore, I define success in financial terms by using both worldwide gross sales and total profit, depending on the key question being answered. This analysis only covered data about the movies themselves.
 
 ***
 
