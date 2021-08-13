@@ -4,7 +4,10 @@
 
 ## Overview
 
-The motion picture industry is a multi-billion dollar business with movie success being largely uncertain, with “hits” and “flops” released almost every year. Analytics about the box-office performance of movies can give useful information to Microsoft so that they can make the most strategic decisions regarding production and financing.
+The motion picture industry is a multi-billion dollar business with movie success being largely uncertain, with “hits” and “flops” released almost every year. Analytics about the box-office performance of movies can give useful information to Microsoft so that they can make the most strategic decisions regarding production and financing. The analysis led to three key recommedations for Micosroft:
+** 1. Animated films still offer the largest risk/reward equation in the movie business
+** 2. Acquiring or partnering with a studio could be a viable strategy
+** 3. When box office profits and generating the quickest return on investment are important, then the months of summer are the ideal time of the year to release a film
 
 
 ## Business Problem
@@ -20,32 +23,17 @@ In this analysis, I will attempt to resolve three key questions for the Client i
 * Is release date a determinant of box-office success?
 
 ***
-Questions to consider:
-* What are the business's pain points related to this project?
-* How did you pick the data analysis question(s) that you did?
-* Why are these questions important from a business perspective?
-***
 
 ## Data
 
-In this project, I will perform an analysis on several large data sets from the Internet Movie Database (IMDB), The Numbers, and Box Office Mogo (BOM). My analysis is based on 5,000 movies.  The data includes many different types of information about each movie, such as genre, domestic (USA) and foreign box office earnings, studio, and production budget. Furthermore, I define success in financial terms by using both worldwide gross sales and total profit, depending on the key question being answered. This analysis only covered data about the movies themselves.
+This project evaluates several large data sets from the Internet Movie Database (IMDB), The Numbers, and Box Office Mogo (BOM). The analysis is based on 5,000 movies. The data includes many different types of information about each movie, such as genre, domestic (USA) and foreign box office earnings, studio, and production budget. Furthermore, I define success in financial terms by using both worldwide gross sales and total profit, depending on the key question being answered. This analysis only covered data about the movies themselves.
 
-***
-Questions to consider:
-* Where did the data come from, and how do they relate to the data analysis questions?
-* What do the data represent? Who is in the sample and what variables are included?
-* What is the target variable?
-* What are the properties of the variables you intend to use?
 ***
 
 ## Methods
 
-This project uses descriptive analysis, including description of trends over time. 
+This project uses descriptive analysis. 
 
-***
-Questions to consider:
-* How did you prepare, analyze or model the data?
-* Why is this approach appropriate given the data and the business problem?
 ***
 
 ## Results
