@@ -1,3 +1,6 @@
+![movie_banner](./images/Movie_banner.jpg)
+
+
 # Box Office Winners: An In-Depth Analysis of What It Takes to Make A Successful Movie
 
 **Prepared for**: Microsoft<br />
