@@ -1,14 +1,15 @@
-# Title
+# Box Office Winners: An In-Depth Analysis of What It Takes to Make A Successful Movie
 
+**Prepared for**: Microsoft
 **Authors**: Alex Casey
 
 ## Overview
 
 The motion picture industry is a multi-billion dollar business with movie success being largely uncertain, with “hits” and “flops” released almost every year. Analytics about the box-office performance of movies can give useful information to Microsoft so that they can make the most strategic decisions regarding production and financing. The analysis led to three key findings and recommendations for Microsoft:
 
-** 1. Animated films still offer the largest risk/reward equation in the movie business
-** 2. Acquiring or partnering with a studio could be a viable strategy for Microsoft as the industry continues to consolidate
-** 3. When box office profits and generating the quickest return on investment are important, then the months of summer are the ideal time of the year for Microsoft to release a film
+1. Animated films still offer the largest risk/reward equation in the movie business
+2. Acquiring or partnering with a studio could be a viable strategy for Microsoft as the industry continues to consolidate
+3. When box office profits and generating the quickest return on investment are important, then the months of summer are the ideal time of the year for Microsoft to release a film
 
 
 ## Business Problem
