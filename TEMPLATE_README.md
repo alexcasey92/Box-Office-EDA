@@ -1,7 +1,7 @@
 # Box Office Winners: An In-Depth Analysis of What It Takes to Make A Successful Movie
 
-**Prepared for**: Microsoft
-**Authors**: Alex Casey
+**Prepared for**: Microsoft<br />
+**Authors**: [Alex Casey](mailto:alexcasey92@gmail.com)
 
 ## Overview
 
