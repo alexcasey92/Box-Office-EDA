@@ -78,7 +78,7 @@ This analysis leads to three key recommendations:
 <sup>1</sup>https://www.investopedia.com/articles/investing/093015/how-exactly-do-movies-make-money.asp
 ## For More Information
 
-Please review my full analysis in my [Jupyter Notebook](Technical-Notebook.ipynb) or my [presentation](./DS_Project_Presentation.pdf).
+Please review my full analysis in my [Jupyter Notebook](./technical_notebook.ipynb) or my [presentation](./DS_Project_Presentation.pdf).
 
 For any additional questions, please contact **Alex Casey @ alexcasey92@gmail.com**
 
