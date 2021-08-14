@@ -37,7 +37,7 @@ The data for this project comes from several large movie datasets including, Box
 
 ## Methods
 
-This project uses descriptive analysis. 
+This project uses descriptive analysis. I use ggplot, Seaborn, and matplotlib for making visualizations.
 
 ***
 
